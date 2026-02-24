@@ -453,6 +453,11 @@ h2 {
   margin-bottom: 0.6rem;
 }
 
+.pub-list li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .pub-list a {
   color: var(--ku-crimson);
   font-weight: 700;
