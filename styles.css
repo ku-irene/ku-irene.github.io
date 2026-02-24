@@ -105,8 +105,8 @@ body {
 
 .page-hero {
   background: linear-gradient(180deg, #f9f6f4 0%, #f5f2f0 100%);
-  border-bottom: 1px solid var(--line);
-  padding: 2.2rem 0 2rem;
+  border-bottom: 0;
+  padding: 2.2rem 0 0.6rem;
 }
 
 .page-hero p {
@@ -236,6 +236,10 @@ h2 {
 
 .section {
   padding: 3rem 0;
+}
+
+.page-hero + .section {
+  padding-top: 0.6rem;
 }
 
 .section.alt {
@@ -501,7 +505,7 @@ h2 {
 }
 
 .site-footer {
-  border-top: 1px solid var(--line);
+  border-top: 2px solid var(--ku-crimson);
   padding: 1.1rem 0 2rem;
   color: var(--muted);
   font-size: 0.95rem;
