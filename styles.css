@@ -454,8 +454,10 @@ h2 {
 }
 
 .pub-list li {
-  text-align: justify;
+  text-align: justify !important;
   text-justify: inter-word;
+  line-height: 1.6;
+  hyphens: auto;
 }
 
 .pub-list a {
@@ -496,6 +498,7 @@ h2 {
   padding: 1.1rem 0 2rem;
   color: var(--muted);
   font-size: 0.95rem;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
