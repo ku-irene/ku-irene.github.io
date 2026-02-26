@@ -114,10 +114,11 @@ body {
   color: var(--muted);
 }
 
-.members-tbd {
-  font-size: 0.8rem;
+.members-message {
+  text-align: center;
+  font-size: 1.1rem;
   color: var(--muted);
-  margin-top: 0.4rem;
+  margin: 2.4rem 0 0;
 }
 
 .hero-grid {
