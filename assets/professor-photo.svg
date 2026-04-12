@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="420" viewBox="0 0 340 420" role="img" aria-label="Professor photo placeholder">
+  <rect width="340" height="420" fill="#f1ece8" />
+  <circle cx="170" cy="142" r="56" fill="#d8cec7" />
+  <rect x="88" y="214" width="164" height="126" rx="64" fill="#d8cec7" />
+  <text x="170" y="386" text-anchor="middle" font-size="24" font-family="Noto Sans KR, Arial, sans-serif" fill="#8b0029">Professor Photo</text>
+</svg>
