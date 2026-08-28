@@ -114,13 +114,6 @@ body {
   color: var(--muted);
 }
 
-.members-message {
-  text-align: center;
-  font-size: 1.1rem;
-  color: var(--muted);
-  margin: 2.4rem 0 0;
-}
-
 .hero-grid {
   display: flex;
   flex-direction: column;
@@ -272,6 +265,54 @@ h2 {
 .prof-profile-card h3 {
   font-size: 16pt;
   margin-bottom: 0.5rem;
+}
+
+.member-profile-card {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1.35rem;
+  align-items: start;
+}
+
+.member-photo {
+  width: 180px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: #f0ece9;
+}
+
+.member-name {
+  font-size: 16pt;
+  margin-bottom: 0.75rem;
+}
+
+.member-detail-block {
+  margin-bottom: 0.8rem;
+}
+
+.member-detail-block h4 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.member-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.member-list li {
+  margin-bottom: 0.3rem;
+}
+
+.member-email {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
 }
 
 .prof-contact-list {
@@ -592,6 +633,10 @@ h2 {
 
   .contact-map-wrap {
     margin-top: 0.6rem;
+  }
+
+  .member-profile-card {
+    grid-template-columns: 1fr;
   }
 
   .cards {
