@@ -506,12 +506,14 @@ h2 {
   hyphens: auto;
 }
 
-.pub-list a {
+.pub-list a,
+.publication-link {
   color: var(--ku-crimson);
   font-weight: 700;
 }
 
-.pub-list a:hover {
+.pub-list a:hover,
+.publication-link:hover {
   color: var(--ku-crimson-dark);
 }
 
