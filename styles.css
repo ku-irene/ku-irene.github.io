@@ -403,6 +403,13 @@ h2 {
   margin-bottom: 0.45rem;
 }
 
+.news-page .prof-bullets li {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+  hyphens: auto;
+}
+
 .research-text {
   text-align: justify;
   text-justify: inter-word;
